@@ -13,6 +13,6 @@
 
 using namespace std;
 
-int totalPurchase();
+int totalPurchase(int cost);
 
 #endif /* totalPurchase_hpp */

@@ -7,8 +7,8 @@
 
 #include "totalPurchase.hpp"
 
-int totalPurchase() {
-    int baseCost = 99, num;
+int totalPurchase(int cost) {
+    int baseCost = cost, num;
     double totalCost;
     
     cout << "Package Seller!!\n\nDiscounts available.\nPackages desired: \n";
@@ -25,7 +25,7 @@ int totalPurchase() {
     else if (num >= 50 && num < 100) totalCost = baseCost * num * 0.7;
     else totalCost = baseCost * num * 0.5;
     
-    cout << "Total cost: " << totalCost << endl;
+    cout << "Total cost: $" << totalCost << endl;
     
     return 0;
 }
