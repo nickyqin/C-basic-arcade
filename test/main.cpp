@@ -6,30 +6,16 @@
 //
 
 #include <iostream>
+#include "triangle.hpp"
+#include "totalPurchase.hpp"
 
 using namespace std;
 
 int main() {
     // insert code here...
-    int ang1, ang2, ang3;
+    // checkTriangle();
     
-    cout << "Triangle Tester\n\n" << "Triangle angle one: " << endl;
-    cin >> ang1;
-    
-    cout << "Angle two: " << endl;
-    cin >> ang2;
-    
-    cout << "Angle three: " << endl;
-    cin >> ang3;
-    
-    if (ang1 + ang2 + ang3 == 180)
-    {
-        cout << "Valid Triangle!" << endl;
-    }
-    else
-    {
-        cout << "Invalid Triangle!" << endl;
-    }
+    totalPurchase();
     
     return 0;
 }

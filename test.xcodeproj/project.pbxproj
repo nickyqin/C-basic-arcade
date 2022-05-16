@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA2947AB28328C6C00712DEB /* totalPurchase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA2947A928328C6C00712DEB /* totalPurchase.cpp */; };
 		CAAB4D1B2831ACB200F35F43 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAAB4D1A2831ACB200F35F43 /* main.cpp */; };
 		CAAB4D232831ED9500F35F43 /* triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAAB4D212831ED9500F35F43 /* triangle.cpp */; };
 /* End PBXBuildFile section */
@@ -24,6 +25,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CA2947A928328C6C00712DEB /* totalPurchase.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = totalPurchase.cpp; sourceTree = "<group>"; };
+		CA2947AA28328C6C00712DEB /* totalPurchase.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = totalPurchase.hpp; sourceTree = "<group>"; };
 		CAAB4D172831ACB200F35F43 /* test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = test; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAAB4D1A2831ACB200F35F43 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		CAAB4D212831ED9500F35F43 /* triangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = triangle.cpp; sourceTree = "<group>"; };
@@ -63,6 +66,8 @@
 				CAAB4D1A2831ACB200F35F43 /* main.cpp */,
 				CAAB4D212831ED9500F35F43 /* triangle.cpp */,
 				CAAB4D222831ED9500F35F43 /* triangle.hpp */,
+				CA2947A928328C6C00712DEB /* totalPurchase.cpp */,
+				CA2947AA28328C6C00712DEB /* totalPurchase.hpp */,
 			);
 			path = test;
 			sourceTree = "<group>";
@@ -124,6 +129,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA2947AB28328C6C00712DEB /* totalPurchase.cpp in Sources */,
 				CAAB4D1B2831ACB200F35F43 /* main.cpp in Sources */,
 				CAAB4D232831ED9500F35F43 /* triangle.cpp in Sources */,
 			);
