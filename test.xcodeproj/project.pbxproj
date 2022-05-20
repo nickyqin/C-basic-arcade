@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CA2947B12832FCDD00712DEB /* ticTacToe.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA2947AF2832FCDD00712DEB /* ticTacToe.cpp */; };
+		CA2A23162836B9CB0016754E /* hangman.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA2A23142836B9CB0016754E /* hangman.cpp */; };
 		CAAB4D1B2831ACB200F35F43 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CAAB4D1A2831ACB200F35F43 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,8 @@
 		CA2947AF2832FCDD00712DEB /* ticTacToe.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ticTacToe.cpp; sourceTree = "<group>"; };
 		CA2947B02832FCDD00712DEB /* ticTacToe.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ticTacToe.hpp; sourceTree = "<group>"; };
 		CA2947B22832FF0C00712DEB /* completed */ = {isa = PBXFileReference; lastKnownFileType = folder; path = completed; sourceTree = "<group>"; };
+		CA2A23142836B9CB0016754E /* hangman.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = hangman.cpp; sourceTree = "<group>"; };
+		CA2A23152836B9CB0016754E /* hangman.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = hangman.hpp; sourceTree = "<group>"; };
 		CA52C0D6283469EE0013A486 /* wordlist10000.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = wordlist10000.txt; path = ../../../../Downloads/wordlist10000.txt; sourceTree = "<group>"; };
 		CAAB4D172831ACB200F35F43 /* test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = test; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAAB4D1A2831ACB200F35F43 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -62,6 +65,8 @@
 		CAAB4D192831ACB200F35F43 /* test */ = {
 			isa = PBXGroup;
 			children = (
+				CA2A23142836B9CB0016754E /* hangman.cpp */,
+				CA2A23152836B9CB0016754E /* hangman.hpp */,
 				CA2947AF2832FCDD00712DEB /* ticTacToe.cpp */,
 				CA2947B02832FCDD00712DEB /* ticTacToe.hpp */,
 				CAAB4D1A2831ACB200F35F43 /* main.cpp */,
@@ -129,6 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA2947B12832FCDD00712DEB /* ticTacToe.cpp in Sources */,
+				CA2A23162836B9CB0016754E /* hangman.cpp in Sources */,
 				CAAB4D1B2831ACB200F35F43 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
