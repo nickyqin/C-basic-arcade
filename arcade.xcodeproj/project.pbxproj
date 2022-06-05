@@ -49,7 +49,7 @@
 		CAAB4D0E2831ACB200F35F43 = {
 			isa = PBXGroup;
 			children = (
-				CAAB4D192831ACB200F35F43 /* test */,
+				CAAB4D192831ACB200F35F43 /* arcade */,
 				CAAB4D182831ACB200F35F43 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -62,7 +62,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CAAB4D192831ACB200F35F43 /* test */ = {
+		CAAB4D192831ACB200F35F43 /* arcade */ = {
 			isa = PBXGroup;
 			children = (
 				CA2A23142836B9CB0016754E /* hangman.cpp */,
@@ -73,7 +73,7 @@
 				CA52C0D6283469EE0013A486 /* wordlist10000.txt */,
 				CA2947B22832FF0C00712DEB /* completed */,
 			);
-			path = test;
+			path = arcade;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,7 +110,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CAAB4D122831ACB200F35F43 /* Build configuration list for PBXProject "test" */;
+			buildConfigurationList = CAAB4D122831ACB200F35F43 /* Build configuration list for PBXProject "arcade" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -272,7 +272,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CAAB4D122831ACB200F35F43 /* Build configuration list for PBXProject "test" */ = {
+		CAAB4D122831ACB200F35F43 /* Build configuration list for PBXProject "arcade" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CAAB4D1C2831ACB200F35F43 /* Debug */,
