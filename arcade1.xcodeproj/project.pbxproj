@@ -110,7 +110,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CAAB4D122831ACB200F35F43 /* Build configuration list for PBXProject "arcade" */;
+			buildConfigurationList = CAAB4D122831ACB200F35F43 /* Build configuration list for PBXProject "arcade1" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -272,7 +272,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CAAB4D122831ACB200F35F43 /* Build configuration list for PBXProject "arcade" */ = {
+		CAAB4D122831ACB200F35F43 /* Build configuration list for PBXProject "arcade1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CAAB4D1C2831ACB200F35F43 /* Debug */,
